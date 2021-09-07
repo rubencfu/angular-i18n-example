@@ -1,0 +1,23 @@
+<div class="main-container">
+  <h1 i18n="Saludo">¡Hola!</h1>
+  <h3 i18n="Subtítulo de la página">
+    Bienvenidos a un pequeño tutorial sobre i18n
+  </h3>
+  <div>
+    <input
+      type="text"
+      [formControl]="test"
+      i18n-placeholder
+      placeholder="Escribe lo que quieras"
+    />
+    <div i18n>Texto del input: {{ test.value }}</div>
+  </div>
+</div>
+<div i18n>Idioma actual: {{ locale }}</div>
+<div class="date">{{ today | date }}</div>
+<span i18n
+  >Actualizado {minutes, plural, =0 {justo ahora} =1 {hace un minuto} other
+  {hace {{ minutes }} minutos}}</span
+>
+<div i18n>Este texto es nuevo</div>
+<router-outlet></router-outlet>

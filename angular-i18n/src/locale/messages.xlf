@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="10b157c53b1bb1423587e7e007fffe04a8b4747b" datatype="html">
+        <source>¡Hola!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Saludo</note>
+      </trans-unit>
+      <trans-unit id="7d502b51a9e39b4f1439ac015d93d3e1399ad9e4" datatype="html">
+        <source> Bienvenidos a un pequeño tutorial sobre i18n </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <note priority="1" from="description">Subtítulo de la página</note>
+      </trans-unit>
+      <trans-unit id="061a8513d6a3b047c4dcf9406460d9364e3f6ada" datatype="html">
+        <source>Escribe lo que quieras</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f3d72a0900f18577a9bfe793676a1cbb5bcbceac" datatype="html">
+        <source>Texto del input: <x id="INTERPOLATION" equiv-text="{{ test.value }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5ef87962455bab4f6e0d6b5401c1d84d3656b21" datatype="html">
+        <source>Idioma actual: <x id="INTERPOLATION" equiv-text="{{ locale }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c331d8db48a66dee44792824f122c6630617b848" datatype="html">
+        <source>Actualizado <x id="ICU" equiv-text="{minutes, plural, =0 {justo ahora} =1 {hace un minuto} other
+  {hace {{ minutes }} minutos}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0916435f02dbd1c44fa6f87727585d25a57520a4" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {justo ahora} =1 {hace un minuto} other {hace <x id="INTERPOLATION"/> minutos}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="876fba30f76c2c787db81d8451c804b50ad8e2d0" datatype="html">
+        <source>Este texto es nuevo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
