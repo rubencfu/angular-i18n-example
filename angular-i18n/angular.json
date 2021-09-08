@@ -42,8 +42,6 @@
           },
           "configurations": {
             "en": {
-              "aot": true,
-              "outputPath": "dist/angular-i18n-en",
               "localize": ["en"]
             },
             "es": {
@@ -59,7 +57,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
